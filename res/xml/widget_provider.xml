@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    formula: (number of cells * 74) - 2
+    146dp = 2 cells
+    294dp = 3 cells
+    368dp = 4 cells
+    
+    update once every hour.
+-->
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:minWidth="146dip"
+    android:minHeight="146dip"
+    android:updatePeriodMillis="3600000"
+    android:initialLayout="@layout/widget_message"
+    android:configure="com.mrcaps.taskswidget.ConfigureWidget"/>

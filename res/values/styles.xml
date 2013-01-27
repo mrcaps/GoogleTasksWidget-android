@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style name="BulletPoint">
+		<item name="android:text">\u2022</item>
+		<item name="android:textSize">13sp</item>
+		<item name="android:textColor">@android:color/black</item>
+	</style>
+
+
+	<style name="Text">
+	</style>
+
+	<style name="Text.Loading">
+		<item name="android:textSize">14sp</item>
+		<item name="android:textColor">@android:color/black</item>
+	</style>
+
+	<declare-styleable name="MyGalleryStyle">
+		<attr name="android:galleryItemBackground" />
+	</declare-styleable>
+</resources>

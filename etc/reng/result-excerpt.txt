@@ -1,0 +1,94 @@
+08-20 20:43:16.785: VERBOSE/TASKCONT(7090): <script>function _init(){_setup({"f":{"v":true,"d":true,"e":true,"r":true,"x":true},"v":12743913,"bp":"/tasks","t":{"latest_sync_point":1282316260151000,"response_time":1282351381,"results":[],"tasks":[{"id":"08738438757279196547:0:21","last_modified":1282316260026,"child_id":["08738438757279196547:0:22","08738438757279196547:0:24"],"name":"Apartment Stuff","notes":"","type":"TASK","deleted":false,"list_id":["08738438757279196547:0:0"],"completed":false},{"id":"08738438757279196547:0:22","last_modified":1282090641077,"name":"Rent","type":"TASK","deleted":false,"list_id":["08738438757279196547:0:0"],"completed":false},{"id":"08738438757279196547:0:24","last_modified":1282316260027,"name":"Kill-a-watt","notes":"","type":"TASK","deleted":false,"list_id":["08738438757279196547:0:0"],"completed":false}],"user":{"id":"08738438757279196547","show_tips":false,"auto_clear":false,"mobile_default_list_id":"08738438757279196547:0:0","requested_list_id":"08738438757279196547:0:0","default_list_id":"08738438757279196547:0:0"},"groups":[],"lists":[{"id":"08738438757279196547:0:0","child_entity":[{"id":"08738438757279196547:0:21"}],"last_modified":1282315132068,"list_metadata":{"1":1282304937737},"name":"Ilari's list","type":"GROUP"},{"id":"08738438757279196547:1:0","last_modified":1282315132677,"list_metadata":{"1":1282090656680},"name":"To Get","type":"GROUP"},{"id":"08738438757279196547:2:0","last_modified":1282315133226,"list_metadata":{"1":1282178250766},"name":"Projects","type":"GROUP"}]},"e":"XXXX@gmail.com","s":"res/993453956-gadget.css","i":false})}</script></head>
+
+
+
+function _init() {
+    _setup({
+        "f": {
+            "v": true,
+            "d": true,
+            "e": true,
+            "r": true,
+            "x": true
+        },
+        "v": 12743913,
+        "bp": "/tasks",
+        "t": {
+            "latest_sync_point": 1282316260151000,
+            "response_time": 1282351381,
+            "results": [],
+            "tasks": [{
+                "id": "08738438757279196547:0:21",
+                "last_modified": 1282316260026,
+                "child_id": ["08738438757279196547:0:22", "08738438757279196547:0:24"],
+                "name": "Apartment Stuff",
+                "notes": "",
+                "type": "TASK",
+                "deleted": false,
+                "list_id": ["08738438757279196547:0:0"],
+                "completed": false
+            },
+            {
+                "id": "08738438757279196547:0:22",
+                "last_modified": 1282090641077,
+                "name": "Rent",
+                "type": "TASK",
+                "deleted": false,
+                "list_id": ["08738438757279196547:0:0"],
+                "completed": false
+            },
+            {
+                "id": "08738438757279196547:0:24",
+                "last_modified": 1282316260027,
+                "name": "Kill-a-watt",
+                "notes": "",
+                "type": "TASK",
+                "deleted": false,
+                "list_id": ["08738438757279196547:0:0"],
+                "completed": false
+            }],
+            "user": {
+                "id": "08738438757279196547",
+                "show_tips": false,
+                "auto_clear": false,
+                "mobile_default_list_id": "08738438757279196547:0:0",
+                "requested_list_id": "08738438757279196547:0:0",
+                "default_list_id": "08738438757279196547:0:0"
+            },
+            "groups": [],
+            "lists": [{
+                "id": "08738438757279196547:0:0",
+                "child_entity": [{
+                    "id": "08738438757279196547:0:21"
+                }],
+                "last_modified": 1282315132068,
+                "list_metadata": {
+                    "1": 1282304937737
+                },
+                "name": "Ilari's list",
+                "type": "GROUP"
+            },
+            {
+                "id": "08738438757279196547:1:0",
+                "last_modified": 1282315132677,
+                "list_metadata": {
+                    "1": 1282090656680
+                },
+                "name": "To Get",
+                "type": "GROUP"
+            },
+            {
+                "id": "08738438757279196547:2:0",
+                "last_modified": 1282315133226,
+                "list_metadata": {
+                    "1": 1282178250766
+                },
+                "name": "Projects",
+                "type": "GROUP"
+            }]
+        },
+        "e": "XXXX@gmail.com",
+        "s": "res/993453956-gadget.css",
+        "i": false
+    })
+}

@@ -1,0 +1,44 @@
+Starting point for using API:
+http://privacylog.blogspot.com/2010/07/api-for-google-tasks.html
+
+Decompiled source for stuff:
+http://google.com/codesearch/p?hl=en#fWlloXVJ3B4/trunk/my-system/deodex/korean-v10t/app/GoogleSubscribedFeedsProvider/com/google/android/googlelogin/GoogleLoginServiceBlockingHelper.smali&q=googleappsverifier&d=10
+
+We can use the auth cookies handed to us... it looks like they last for ~15 days
+
+try {
+  for (Method ele :
+Class.forName("com.google.android.googlelogin.GoogleLoginServiceHelper").getMethods())
+{
+  System.out.println(ele.toString());
+  try {
+  if(ele.getName().equals("getAccount"))
+  ele.invoke(null, this, 123, true);
+  } catch (IllegalArgumentException e) {
+  e.printStackTrace();
+  } catch (IllegalAccessException e) {
+  e.printStackTrace();
+  } catch (InvocationTargetException e) {
+  e.printStackTrace();
+  }
+  }
+  } catch (ClassNotFoundException e) {
+  e.printStackTrace();
+  }
+
+  } catch (ClassNotFoundException e) {
+  e.printStackTrace();
+  }
+
+& jus place the foll code in ur onactivityresult
+if (requestCode == 123) {
+  System.out.println(resultCode);
+  String key = "accounts";
+  System.out.println(key + ":" +
+Arrays.toString(data.getExtras().getStringArray(key)));
+  String accounts[] = data.getExtras().getStringArray(key);
+  if (accounts[0] != null)
+  usernameText.setText("You are : " + accounts[0].replace("@gmail.com",
+""));
+ } 
+ 

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ViewSwitcher xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/configure_switcher" android:layout_width="fill_parent"
+	android:layout_height="wrap_content" android:padding="5dp">
+
+	<LinearLayout android:layout_width="wrap_content"
+		android:layout_height="wrap_content">
+		<ProgressBar android:layout_width="wrap_content"
+			android:layout_height="wrap_content"></ProgressBar>
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:layout_gravity="center_vertical"
+			android:text="@string/widget_loading" android:textSize="18dp"
+			android:paddingLeft="5dp"></TextView>
+	</LinearLayout>
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:orientation="vertical">
+		<TextView android:text="Task List" android:layout_width="wrap_content"
+			android:layout_height="wrap_content"></TextView>
+		<Spinner android:id="@+id/configure_lists"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"></Spinner>
+		<TextView android:text="Appearance" android:layout_width="wrap_content"
+			android:layout_height="wrap_content"></TextView>
+		<Gallery android:id="@+id/configure_gallery" android:layout_width="fill_parent"
+			android:layout_height="wrap_content"></Gallery>
+		<Button android:text="@string/config_add_button" android:id="@+id/configure_add"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"></Button>
+	</LinearLayout>
+
+</ViewSwitcher>
+

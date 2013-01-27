@@ -1,0 +1,55 @@
+Check off a group:
+{
+    "action_list": [{
+        "action_type": "update",
+        "action_id": "1",
+        "id": "08738438757279196547:0:21",
+        "entity_delta": {
+            "completed": true
+        }
+    },
+    {
+        "action_type": "update",
+        "action_id": "2",
+        "id": "08738438757279196547:0:22",
+        "entity_delta": {
+            "completed": true
+        }
+    },
+    {
+        "action_type": "update",
+        "action_id": "3",
+        "id": "08738438757279196547:0:24",
+        "entity_delta": {
+            "completed": true
+        }
+    },
+    {
+        "action_type": "update",
+        "action_id": "4",
+        "id": "08738438757279196547:0:27",
+        "entity_delta": {
+            "completed": true
+        }
+    }],
+    "client_version": 12743913,
+    "current_list_id": "08738438757279196547:0:0",
+    "latest_sync_point": 1282352305221000
+}
+
+
+
+Checkoff single:
+{
+    "action_list": [{
+        "action_type": "update",
+        "action_id": "9",
+        "id": "08738438757279196547:0:24",
+        "entity_delta": {
+            "completed": true
+        }
+    }],
+    "client_version": 12743913,
+    "current_list_id": "08738438757279196547:0:0",
+    "latest_sync_point": 1282352341495000
+}

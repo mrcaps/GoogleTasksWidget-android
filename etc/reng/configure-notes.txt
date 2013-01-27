@@ -1,0 +1,4 @@
+
+Appwidget source:
+http://developer.android.com/resources/samples/ApiDemos/src/com/example/android/apis/appwidget/ExampleAppWidgetConfigure.html
+C:\Program Files\android-sdk-windows\samples\android-7\ApiDemos\src\com\example\android\apis\appwidget

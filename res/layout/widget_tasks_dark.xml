@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/widget" android:layout_width="fill_parent"
+	android:layout_height="wrap_content" android:orientation="vertical"
+	android:focusable="true" android:background="@drawable/bg_dark">
+
+	<ImageView android:id="@+id/tasks_icon" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_alignParentRight="true"
+		android:src="@drawable/app_icon_fade" />
+
+	<TextView android:id="@+id/tasks_title" android:textColor="#ffffff"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:singleLine="true" android:ellipsize="end" android:textStyle="bold"
+		android:textSize="16sp" />
+	<ImageView android:id="@+id/tasks_list" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_below="@id/tasks_title"
+		android:layout_gravity="left">
+	</ImageView>
+</RelativeLayout>

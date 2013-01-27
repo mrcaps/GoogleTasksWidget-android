@@ -1,0 +1,12 @@
+get specific list (from list id)
+
+r=
+{"action_list":
+    [{
+        "action_type":"get_all",
+        "action_id":"2",
+        "list_id":"08738438757279196547:2:0",
+        "get_deleted":false
+    }],
+    "client_version":12743913
+}

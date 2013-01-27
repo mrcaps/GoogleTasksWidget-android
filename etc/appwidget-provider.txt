@@ -1,0 +1,36 @@
+<field name="META_DATA_APPWIDGET_PROVIDER"
+ type="java.lang.String"
+ transient="false"
+ volatile="false"
+ value="&quot;android.appwidget.provider&quot;"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+</class>
+<class name="AppWidgetProvider"
+ extends="android.content.BroadcastReceiver"
+ abstract="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<constructor name="AppWidgetProvider"
+ type="android.appwidget.AppWidgetProvider"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</constructor>
+
+
+AppWidgetProviderInfo provides, uh, the info we want.
+the AppWidgetManager calls
+    getAppWidgetInfo
+        -> sService.getAppWidgetInfo
+Oops, we can't do multi-size widgets.
+    http://www.droidforums.net/forum/droid-news/56468-clicky-offering-5-000-development-android-widget.html

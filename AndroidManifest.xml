@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	package="com.mrcaps.taskswidget" android:versionCode="4"
+	android:versionName="1.03">
+
+	<application android:icon="@drawable/app_icon"
+		android:label="@string/app_name" android:debuggable="false">
+
+		<!-- Receive the update request -->
+		<receiver android:name=".TasksWidget" android:label="@string/widget_name">
+			<intent-filter>
+				<action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+			</intent-filter>
+			<meta-data android:name="android.appwidget.provider"
+				android:resource="@xml/widget_provider" />
+		</receiver>
+
+		<!-- Query the interwebs -->
+		<service android:name=".TasksWidget$UpdateService" />
+
+		<activity android:name=".ConfigureWidget" 
+			android:theme="@android:style/Theme.Dialog">
+			<intent-filter>
+				<action android:name="android.appwidget.action.APPWIDGET_CONFIGURE" />
+			</intent-filter>
+		</activity>
+	</application>
+
+	<uses-permission android:name="android.permission.GET_ACCOUNTS"></uses-permission>
+	<uses-permission android:name="android.permission.MANAGE_ACCOUNTS"></uses-permission>
+	<uses-permission android:name="android.permission.USE_CREDENTIALS"></uses-permission>
+	<uses-permission android:name="com.google.android.googleapps.permission.GOOGLE_AUTH"></uses-permission>
+	<uses-permission
+		android:name="com.google.android.googleapps.permission.GOOGLE_AUTH.goanna_mobile"></uses-permission>
+	<uses-permission android:name="android.permission.INTERNET"></uses-permission>
+
+	<uses-sdk
+	   android:targetSdkVersion="5" 
+	   android:minSdkVersion="3" />
+</manifest>

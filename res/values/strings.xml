@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tasks Widget</string>
+	
+	<string name="config_title_text">Widget Configuration</string>
+	<string name="config_add_button">Add Tasks Widget</string>
+	<string name="config_download_error">Could not download tasks list.</string>
+    <string name="config_network_error">Could not download tasks list - please check your network connection.</string>
+
+    <string name="template_user_agent" formatted="false">"%s/%s (Linux; Android)"</string>
+     
+    <string name="bullet">\u2022</string>
+    
+    <string name="widget_name">Tasks Widget</string>
+
+    <string name="widget_loading">Loading...</string>
+    <string name="widget_error">Error!</string>
+
+    <color name="debug_color">#00ff00</color>    
+</resources>
