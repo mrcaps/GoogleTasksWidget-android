@@ -8,5 +8,5 @@ This was one of the few solutions early on, and surprisingly sold some copies de
 Since hopelessly out of date (circa beginning of 2011), but hopefully provides some insight about how authentication to Google services worked without the pleasantness of a client library.
 
 Some screenshots:
-![Shot 1](mrcaps.github.com/GoogleTasksWidget-android/etc/market/shot1.png)
-![Shot 2](mrcaps.github.com/GoogleTasksWidget-android/etc/market/shot2.png)
+![Shot 1](GoogleTasksWidget-android/etc/market/shot1.png)
+![Shot 2](GoogleTasksWidget-android/etc/market/shot2.png)
